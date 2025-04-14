@@ -1,0 +1,28 @@
+.swiper {
+    width: 100%;
+    height: 850px;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 10px pink solid;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+@media (max-width: 639px) {
+    .swiper {
+        height: 380px;
+    }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+    .swiper {
+        height: 400px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .swiper {
+        height: 600px;
+    }
+}
